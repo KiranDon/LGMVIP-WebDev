@@ -205,3 +205,52 @@ button{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 1px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 
 }
+
+/* pricing */
+.pricing{
+    background-color: rgb(250, 249, 249);
+    padding: 80px 100px 50px 150px;
+}
+.pricing .plans{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.pricing .plans .plan{
+    margin: 0 30px;
+    padding-right: 10px;
+    border-right: 2px solid rgb(100, 21, 21);
+}
+.pricing .plans .plan:nth-child(3){
+    border: none;
+}
+.pricing .plans .plan button{
+    background-color: #FFE172;;
+}
+#b{
+    background-color: #61497B;
+    color: white;
+}
+.price{
+    color: rgb(235, 151, 41);
+}
+
+/* video projects  */
+.videoProjects{
+    background-color: #61497B;
+    padding: 50px 0 100px 0;
+    width: 100%;
+}
+.videoProjects h1{
+    color: white;
+}
+.videoProjects .videos{
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.videoProjects .videos .video:nth-child(2){
+    transform: scale(1.2);
+}
