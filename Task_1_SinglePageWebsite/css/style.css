@@ -256,7 +256,6 @@ button{
 }
 /* team */
 .team{
-    background-color: rgb(250, 249, 249);
     padding: 50px 100px 50px 150px;
 }
 .team .members{
@@ -295,6 +294,7 @@ button{
 .life{
     padding: 50px 100px 50px 100px; 
     position: relative;  
+    background-color: rgb(250, 249, 249);
 }
 .life .image{
     margin-top: 30px;
@@ -312,7 +312,7 @@ button{
 .life .images{
     margin-top: 20px;
     width: 600px;
-    height: 80px;
+    height: 60px;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
@@ -327,12 +327,58 @@ button{
     justify-content: space-between;
 }
 .life .images .smallImages img{
-    height: 100%;
-    width: 100px;
+    height: 50px;
+    width: 90px;
     cursor: pointer;
 }
 .life .leftArrow, .life .rightArrow{
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 20px;
+    background-color: #8A897D;
+    color: white;
+}
+
+/* news Letter  */
+.newsLetter{
+    padding: 70px 100px 100px 100px; 
+    background: url("../images/bridgeNew.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+}
+.newsLetter h1{
+    color: white;
+}
+.newsLetter .form{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.newsLetter .form .input input[type="email"]{
+    padding: 12px 10px;
+    border: none;
+    outline: none;
+    width: 300px;
+}
+.newsLetter .form .input button{
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: #FFE172;
+}
+
+/* blog */
+.blog{
+    background-color: rgb(250, 249, 249);
+    padding: 50px 100px 50px 100px; 
+}
+.blog .posts{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
 }
