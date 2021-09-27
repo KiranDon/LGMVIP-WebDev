@@ -382,3 +382,21 @@ button{
     text-align: center;
     margin-top: 20px;
 }
+.blog .post{
+    padding: 10px;
+    /* border: 1px solid black; */
+}
+.blog .blogText{
+    padding: 0 25px;
+    margin: 10px 0;
+    text-align: start;
+}
+.blog .post .date{
+    color: rgba(50, 50, 93, 0.4);
+}
+.blog .post img{
+    border-radius: 10px;
+}
+.blog .post button{
+    background-color: #FFE172;
+}
